@@ -169,7 +169,7 @@ p {
     height:600px;
     margin-top:-3px;
     border-bottom:3px solid #3d3d3d;
-    background-image:url(../images/minecraft-shaders-wallpaper-xqv1otfr-Minecraft-wallpaper-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.jpg);
+    background-image:url(../images/background.jpg);
     background-position:0 1%
 }
 
@@ -433,7 +433,7 @@ hr.style {
 }
 
 .staffbg {
-    background-image:url(../images/minecraft-shaders-wallpaper-xqv1otfr-Minecraft-wallpaper-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.jpg);
+    background-image:url(../images/background.jpg);
     padding-left:10px;
     padding-right:10px
 }

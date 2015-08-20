@@ -30,12 +30,11 @@ WebFont.load({
     <div class="w-nav navbar" data-animation="default" data-collapse="medium"
     data-contain="1" data-doc-height="1" data-duration="400">
         <div class="w-container">
-            <nav class="w-nav-menu">
-                <a class="w-nav-link navbar home" href=
-                "index.html">Home</a><a class="w-nav-link navbar about" href=
-                "#about">Forums</a><a class="w-nav-link navbar vote" href=
-                "#vote">Vote</a><a class="w-nav-link navbar staff" href=
-                "#staff">Shop</a>
+           <nav class="w-nav-menu">
+                <a class="w-nav-link navbar home" href="index.html">Home</a><a class=
+                "w-nav-link navbar about" href="#">Forums</a><a class=
+                "w-nav-link navbar vote" href="#">Vote</a><a class=
+                "w-nav-link navbar staff" href="shop.html">Shop</a><a class="w-nav-link navbar about" href="account.html">Account</a>
             </nav>
 
 
@@ -47,6 +46,45 @@ WebFont.load({
                 </div>
             </div>
         </div>
+        <style type="text/css">
+    .wrap{
+        display: inline-block;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        text-align: center;
+    }
+    .staff-head{
+        display:inline-block;
+        background: transparent;
+        margin: 10px;
+        height: 140px;
+        width:120px;
+        border-radius: 6px;
+        border: 1px solid #ddd;
+box-shadow: 1px 2px 15px #888888;
+    }
+
+    .staff-head img{
+        margin: 5px;
+        width:100px;
+        border-radius: 8px;
+        height: 100px;
+    }
+
+    .staff-head span{
+        font-family: 'lato', sans-serif;  
+        position: absolute;
+        background: transparent;
+        width: 120px;
+        height: 20px;
+        color: #888;
+        text-align: center;
+        display:block;
+        border-top: 1px solid #ddd;
+    }
+</style>
+
+
 
 
         <div class="staffbg">
@@ -56,44 +94,35 @@ WebFont.load({
 
 
             <p class="administrators">Administrators</p>
-            <img class="heads" src=
-            "http://cravatar.eu/helmavatar/Slorta/100.png"> <img class="heads"
-            src="http://cravatar.eu/helmavatar/ParaSpider/100.png"> <img class=
-            "heads" src="http://cravatar.eu/helmavatar/IcyCode/100.png">
+            <div class="wrap">
+    <a href="/ParaSpider"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/ParaSpider/100.png"><br><span>ParaSpider</span></div></a><a href="/Slorta"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/Slorta/100.png"><br><span>Slorta</span></div></a><a href="/IcyCode"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/IcyCode/100.png"><br><span>IcyCode</span></div></a></div>
 
             <h2>
             </h2>
 
 
             <p class="developers">Developers</p>
-            <img class="heads" src=
-            "http://cravatar.eu/helmavatar/Slorta/100.png"> <img class="heads"
-            src="http://cravatar.eu/helmavatar/IcyCode/100.png">  <img class="heads" src="http://cravatar.eu/helmavatar/Javipepe/100.png"> 
+           <div class="wrap">
+            <a href="/javipepe"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/Javipepe/100.png"><br><span>javipepe</span></div></a><a href="/Slorta"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/Slorta/100.png"><br><span>Slorta</span></div></a><a href="/IcyCode"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/IcyCode/100.png"><br><span>IcyCode</span></div></a><a href="/Mango_"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/Mango_/100.png"><br><span>Mango_</span></div></a><a href="/The_Bad_1"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/The_Bad_1/100.png"><br><span>The_Bad_1</span></div></a>
+            </div>
 
             <h2>
             </h2>
 
 
             <p class="srmods">Managers</p> 
-            <img class="heads" src=
-            "http://cravatar.eu/helmavatar/Solux/100.png"> 
+            <div class="wrap">
+            <a href="/Solux"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/Solux/100.png"><br><span>Solux</span></div></a> <a href="/SnowSX3"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/SnowSX3/100.png"><br><span>SnowSX3</span></div></a></div>
             <h2>
             </h2>
 
 
             <p class="moderators">Moderators</p>
-            <img class="heads" src=
-            "http://cravatar.eu/helmavatar/Petlas/100.png"> <img class="heads"
-            src="http://cravatar.eu/helmavatar/Legoman2302/100.png">
+            <div class="wrap">
+            <a href="/Petlas"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/Petlas/100.png"><br><span>Petlas</span></div></a><a href="/Legoman2302"><div id="staff" onmouseover="this.style.borderColor ='#08C';" onmouseout="this.style.borderColor ='#ddd';"class="staff-head"><img src="http://cravatar.eu/helmavatar/Legoman2302/100.png"><br><span>Legoman2302</span></div></a></div>
 
             <h2>
             </h2>
-
-
-            <p class="jrmods">Junior Moderators</p>
-            <img class="heads" src=
-            "http://cravatar.eu/helmavatar/Petlas/100.png"> <img class="heads"
-            src="http://cravatar.eu/helmavatar/Legoman2302/100.png"></div>
         </div>
 
 
@@ -118,7 +147,6 @@ WebFont.load({
         <script src=
         "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
         type="text/javascript"></script><script src="js/sonnix.js" type="text/javascript"></script>
-<!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
     </div>
 </body>
 </html>

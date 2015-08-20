@@ -1,0 +1,98 @@
+.section-shop {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.row-fluid {
+    width: 100%;
+}
+.shop-intro {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.main {
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.subheading {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.rank-plate {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.rank-card {
+    padding: 50px;
+}
+.rank {
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.30);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.30);
+}
+.rank-price {
+    position: relative;
+    color: #fff;
+    background: #cd5c5c;
+    border-radius: 40px;
+    line-height: 80px;
+    float: right;
+    width: 80px;
+    height: 80px;
+    top: 0;
+    margin-left: -80px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.rank-logo {
+    height: 150px;
+    background-color: pink;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+}
+.rank-info {
+
+}
+h1 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+p {
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+hr {
+    width: 80%;
+    color: #ddd;
+    background-color: #ddd;
+    border-style: solid;
+}
+.buy {
+    color: #fff;
+    background-color: #cd5c5c;
+    text-transform: uppercase;
+    width: 60%;
+    height: 40px;
+    margin-top: 20px;
+    border: 0;
+    -webkit-box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.40);
+    -moz-box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.40);
+    box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.40);
+}
+.footer-basic-centered {
+    margin-top: 0px !important;
+}
